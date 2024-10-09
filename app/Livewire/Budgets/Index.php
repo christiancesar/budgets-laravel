@@ -20,9 +20,9 @@ class Index extends Component
     return Budget::query()->get();
   }
 
-  public function delete(Budget $budget)
+  public function delete($budget)
   {
-    $budget->query()->delete();
-    // return redirect()->route('budgets.index');
+
+    Budget::query()->where('id', '=', $budget)->delete();
   }
 }

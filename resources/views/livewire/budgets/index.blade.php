@@ -26,7 +26,7 @@
               <button
                 type="button"
                 class="delete-budget"
-                wire:click="delete({{ $budget}})"
+                wire:click="delete('{{ $budget->id }}')"
               >
                 <i class="ph ph-trash"></i>
               </button>
