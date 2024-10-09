@@ -15,5 +15,6 @@ class Budget extends Model
     'customer_name',
     'delivery_at',
     'status',
+    'short_id'
   ];
 }
