@@ -9,15 +9,18 @@
 
 ## Run
 
+- Instalar as dependencias
 ```bash
 composer install
 ```
 ```bash
 npm i
 ```
+- Execute as migration
 ```bash
 php artisan migrate:fresh --seed
 ```
+- Suba o servidor
 ```bash
 php artisan serve
 ```
